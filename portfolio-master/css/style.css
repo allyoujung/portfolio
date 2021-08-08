@@ -1,0 +1,217 @@
+body{overflow-y: scroll;}
+body::-webkit-scrollbar{width: 16px;}
+body::-webkit-scrollbar-track{background: linear-gradient( to top, #fd8ba7, #4e84e9,#fd8ba7 )}
+body::-webkit-scrollbar-thumb{background-color: rgb(13, 9, 70)}
+body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
+
+#nav{position: fixed; top: 0; left: 5%;z-index: 3; width: 90%; height: 100px; display: flex; justify-content: space-evenly;
+    align-items: center;}
+#nav.on{background: #ccc;}
+.logo{}
+.logo a img{width: 8rem;}
+.list{}
+.list li{float: left; margin-right: 6rem;}
+.list li:last-child{margin-right: 0}
+.list li a{font-size: 2.5rem; font-family: 'Old Standard TT', serif; font-weight: 700;}
+.list li.on a{color:rgb(197, 30, 189)}
+.list li a:hover{color: #8f4eda;}
+
+.viusal_wrap{position: fixed; top: 0; left: 0; z-index: -1; width: 100%; height: 100vh;
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+.viusal_wrap .vimg{position: absolute; top: 50%; left: 0; width: 100%; height: auto; transform: translateY(-45%);}
+.viusal_wrap .vtxt{position: absolute; top: 55%; left: 54%;}
+.vtxt span{display: block; font-size: 1.5rem;font-family: 'Noto Sans KR', sans-serif; font-weight: 500;}
+.vtxt span:first-child{margin-bottom: 2rem;}
+
+#main{
+    width: 90%;
+    height: 438rem;
+    background: #fff;
+    position: relative;
+    top: 100vh;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.forme{display: flex; justify-content: space-evenly}
+.formme{overflow: hidden; height: 170rem;  }
+.formme::after{content: ""; display: block; clear: both; }
+.formme h1{text-align: center; font-size: 48px; padding-top: 50px; font-family: 'Staatliches', cursive; margin-bottom: 8rem;}
+.formme .f_left{}
+.f_left .f_img{width: 30rem; height: 30rem; background: url(../img/f1.png) no-repeat center; display: inline-block; background-size:cover}
+.ftxt1{margin-left: 30px;display: block; font-size: 1.5rem; margin-top: 20px; margin-bottom: 20px;}
+.ftxt2{font-size: 16px; margin-left: 30px;}
+
+.center-bar{border-left: 1px solid rgb(75, 0, 52);}
+.formme .f_right{line-height: 4rem;margin-top: 8rem;}
+.f_right h3{font-size: 3rem;margin-bottom: 2rem; font-weight: 600;}
+.f_right p{font-size: 1.6rem; margin-bottom: 2rem;}
+.f_right p:before{content: "";     display: inline-block;width: 5px;height: 5px;margin-bottom: 4px;margin-right: 8px;vertical-align: middle;background-color: #141414;}
+.f_right a{padding: 1.5rem 5rem; border: 1px solid #222; border-radius: 10px; font-size: 1.5rem;position: absolute;
+  top: 60rem;}
+
+.f_list{position: relative;}
+.f_list li{margin-bottom: 40px;}
+.f_list li .list_tit{text-align: left; font-size: 24px; font-weight: bold;}
+.f_list li .bbg{width: 100%; height: 25px; background-color: #ccc; display: block; border-radius: 30px;}
+.f_list li .bbg .bar_c1{width: 78%; height: 25px; background-color: #D43636; display: block; border-radius: 30px;}
+.f_list li .bbg .bar_c2{width: 75%; height: 25px; background-color: #F09E24; display: block; border-radius: 30px;}
+.f_list li .bbg .bar_c3{width: 62%; height: 25px; background-color: #DFE24F; display: block; border-radius: 30px;}
+.f_list li .bbg .bar_c4{width: 88%; height: 25px; background-color: #7CD436; display: block; border-radius: 30px;}
+.f_list li .bbg .bar_c5{width: 88%; height: 25px; background-color: #7B78F6; display: block; border-radius: 30px;}
+
+/* skill */
+#skill{
+    width: 100%;
+      height: 103vh;
+      position: relative;
+      top: 0;
+      left: 0;
+      float:left;
+      padding-bottom: 30px;
+      margin-top: 4rem;
+  }
+  .skill-title{
+    font-family: 'Staatliches', cursive; font-size: 40px; text-align: center; width: 100%; margin-bottom: 30px; 
+  }
+  .skill-wrap{display: flex;}
+  .skillLeft {width: 50%; height: 800px; margin-top:3%}
+  .leftTit {margin: 0 5rem auto; margin-top: 24px; margin-bottom: 40px; border-bottom: 1px solid #da5ca3;; box-sizing: border-box;}
+  .leftTit>h3 {font-weight: 400; font-size: 24px; margin-bottom: 6px; letter-spacing: -1px; color: #8f4eda; font-weight: bold;}
+  .leftTit>p {line-height: 18px; font-weight: 300; font-size: 15px; color: #000;}
+  .leftTit>p:nth-child(3) {margin-bottom: 10px;}
+  .leftMain {margin: 0 6rem auto; margin-top: 20px;}
+  .leftMain .skillIcon {width: 100%; height: 66px; margin-bottom: 35px;}
+  .leftMain .skillIcon>img {display: block; width: 50px; height: 50px; float: left; margin-right: 15px;}
+  .leftMain .skillIcon:nth-child(4)>img {display: block;  width: 110px; height: 30px; padding-top: 11px}
+  .leftMain .skillIcon>p {font-size: 17px; font-weight: 500; line-height: 50px;  color:#8120f0}
+  .leftMain .skillIcon .iconDetail {float: left; margin-top: 2rem;}
+  .leftMain .skillIcon .iconDetail .progress_bar {width: 40rem; height: 20px; box-shadow: 1px 2px 10px #d0d0d0; position: relative; border-radius: 10px;}
+  .leftMain .skillIcon .iconDetail .progress_bar>.bar {position: absolute; top: 0; left: 0; bottom: 0; background: linear-gradient( to right, #e6c1d6, #9e6ed4 ); border-radius: 10px;}
+  .leftMain .skillIcon .iconDetail .progress_bar>.num {position: absolute; top: 0; bottom: 0; right: -56px; font-size: 1.5rem; color: #8120f0; line-height: 20px;}
+  .leftBottom {margin: 0 5rem auto; margin-top: 5rem;}
+  .leftBottom>p:nth-child(1) {font-weight: 400; font-size: 18px; letter-spacing: -1px;}
+  .leftBottom>p:nth-child(1)>span {font-size: 14px; font-weight: 300;}
+  .leftBottom>p:nth-child(2) {padding-top: 10px; font-weight: 300; font-size: 14px;}
+  
+  .skillRight {width: 50%; height: 800px;  margin-top:3%}
+  .skillRight>.right {margin-bottom: 40px; margin-top: 50px;}
+  .skillRight>.right>h3 {display: inline-block; margin-top: 20px;}
+  .skillRight>.right>p {display: inline-block; margin-left: 5px;}
+  .skillRight>.rightMain {margin: 0 auto; margin-right: 10px;}
+  .rightMain>.top {margin: 0 auto; display: flex; width: 540px; flex-direction: row;}
+  .rightMain>.top>.box {text-align: center; float: left; padding: 0 20px; box-sizing: border-box;}
+  .rightMain>.top>.box1{
+    text-align: center; float: left; padding: 14px 22px; box-sizing: border-box;  
+  }
+  .rightMain>.top>.box1>p{
+  font-weight: 300; font-size: 16px; letter-spacing: -0.5px; margin-top: 15px; width: 100px; text-align: center;
+  }
+  .rightMain>.top>.box2{
+    text-align: center; float: left; padding: 14px 22px; box-sizing: border-box;  
+  }
+  .rightMain>.top>.box2>p{
+  font-weight: 300; font-size: 16px; letter-spacing: -0.5px; margin-top: 15px; width: 100px; text-align: center;
+  }
+  .rightMain>.top>.box1>img {display: block; width: 66px; padding-left: 14px;}
+  .rightMain>.top>.box2>img {display: block; width: 66px; padding-left: 14px;}
+  .rightMain>.top>.box>img {display: block; width: 66px; padding-left: 14px;}
+  .rightMain>.top>.box>p {font-weight: 300; font-size: 16px; letter-spacing: -0.5px; margin-top: 10px; width: 100px; text-align: center;}
+  .rightMain>.bottom {margin-top: 20px;}
+  
+
+.portfoilo{ height:85rem; display: flex;flex-direction: column;align-items: center; position: relative;}
+.portfoilo h1{text-align: center; font-size: 48px; padding-top: 4rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive;}
+.pos{position: absolute; width: 100%; position: absolute; top: 10rem; left: 0;}
+.pofi{display: flex; align-items: center; height: 55vh; justify-content: space-around; position: absolute; left: 0; width: 100%; opacity: 0;z-index: 1;}
+.pofi.on{z-index: 999;}
+.pr01{ opacity: 1; z-index: 999;}
+
+.pot{width: 20rem;}
+.pot h3{font-size: 2.5rem; font-weight: bold; color: darkorchid; font-family: 'Staatliches', cursive; margin-bottom: 1rem;}
+.ptit_left{font-size: 3rem; font-weight: bold; margin-bottom: 1rem; display: block;}
+.ptit_sub{font-size: 1.5rem; }
+.table{position: relative;}
+.table img{width: 62vh;}
+.table .img{position: absolute;top: 6%;left: 12%; width: 47vh;height: 29.4vh;} 
+.table .img00{background: url(../img/re_on_01.png) no-repeat center; background-size:cover}
+.table .img01{background: url(../img/pro02.png) no-repeat top center; background-size:cover}
+.table .img02{background: url(../img/pro3.png) no-repeat top center; background-size:cover}
+.table .img03{background: url(../img/re_on_01.png) no-repeat center; background-size:cover}
+.table .img04{background: url(../img/ju.png) no-repeat top center; background-size:cover}
+.ptit_right{width: 20rem;}
+.ptit_r{font-size: 2rem; font-weight: bold; color: darkorchid; font-family: 'Staatliches', cursive; margin-bottom: 1rem;}
+
+.bt_box a{display: block; width: 160px; height: 40px; background: hotpink; margin-bottom: 20px; margin-top: 20px; border-radius: 15px;}
+.bt_box a:hover{background: darkorchid;}
+.bt_box a span{display: block; color: #fff; text-align: center; line-height: 40px;}
+
+.photo_list{position: relative;top: 47rem;left: 0;}
+.photo_list ul{display: flex;}
+.photo_list ul li{width: 107px; height: 72px;  margin-right: 2rem; box-shadow: 8px 5px 5px #ccc; background: #000; opacity: .5; }
+.photo_list ul li.on{opacity: 1}
+.photo_list ul li:last-child{ margin-right:0}
+.photo_list ul .ph_img1{background: url(../img/re_0.png) no-repeat center; background-size:cover}
+.photo_list ul .ph_img1::after{content: "포트폴리오"; position: absolute; top: 125%; left: 2.5%; font-size: 1.5rem; font-weight: 500;} 
+.photo_list ul .ph_img2{background: url(../img/re_1.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img2::after{content: "NH농협"; position: absolute; top: 125%; left: 25%;font-size: 1.5rem;} 
+.photo_list ul .ph_img3{background: url(../img/re_2.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img3::after{content: "LG전자"; position: absolute; top: 125%; left: 46%;font-size: 1.5rem;} 
+.photo_list ul .ph_img4{background: url(../img/re_3.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img4::after{content: "레뷰"; position: absolute; top: 125%; left: 68%;font-size: 1.5rem;} 
+.photo_list ul .ph_img5{background: url(../img/re_5.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img5::after{content: "제주항공"; position: absolute; top: 125%; left: 87%;font-size: 1.5rem;} 
+
+.artworks{position: relative; height: 110rem;}
+.artworks h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive;}
+.arts{display: flex;flex-direction: column;align-items: center; margin-top: 2rem;}
+
+
+.artworks .artill{display: flex; justify-content: space-around; align-items: center; margin-bottom: 7rem; width: 80%;}
+.artworks .artill a{float: left;}
+.artworks .artill a img{display: block; width: 417px; height: 342px;}
+.artworks .art_tit{float: right; height: 20rem; border-top: 2px solid #e5d3d3; border-bottom: 2px solid #e5d3d3; width: 50%; margin-left: 4rem;display: flex;
+  justify-content: flex-start;align-items: center}
+.artworks .art_tit .frist-text{font-size: 4rem; font-weight: bold;}
+.artworks .art_tit .last-text{font-size: 2rem;}
+
+.artworks .artphoto{display: flex; justify-content: space-around; align-items: center; width: 80%; text-align: right;}
+.artworks .artphoto a{float: left; }
+.artworks .artphoto a img{display: block; width: 479px; height: 338px;}
+.artworks .art_tit2{float: right; height: 20rem; border-top: 2px solid #e5d3d3; border-bottom: 2px solid #e5d3d3;width: 50%; margin-right: 4rem;display: flex;
+  justify-content: flex-end;align-items: center}
+.artworks .art_tit2 .frist-text{font-size: 4rem; font-weight: bold;}
+.artworks .art_tit2 .last-text{font-size: 2rem;}
+
+
+
+.contact{position: relative; height: 70rem; }
+.contact h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive; margin-bottom: 10rem;}
+
+.contact .con-box{display: flex; justify-content: space-evenly; margin-bottom: 5rem;}
+.contact .con-box>div{display: flex;align-items: center;flex-direction: column; width: 17rem; height: 17rem;}
+.contact .con-box>div h2{font-size: 1.8rem; text-align: center; font-weight: 500; margin-bottom: 2rem;}
+.contact .con-box>div img{ width: 10rem; height: 10rem;}
+.contact .con-box>div p{font-size: 1.5rem; text-align: center; font-weight: 500;}
+.contact .sns{text-align: center; margin-bottom: 2rem;}
+.contact .sns a{margin-right: 2rem;}
+.contact .sns img{width: 5rem; height: 5rem;}
+.contact .copy p{text-align: center; font-size: 1.5rem; line-height: 8rem;}
+.contact .copy .f{font-size: 1.8rem; }
+
+/* 공통속성 */
+.continer{width: 90%; margin: 0 auto; height: inherit; background: rgba(255, 255, 255, 0.5); position: relative; display: flex;
+    flex-direction: column;}
+
+@media screen and (max-width:1300px){
+    .formme .f_left{margin-left: 2rem;}
+    .formme .f_right{margin-right: 0;}
+    .table img{width: 57vh;}
+    .table .img{width: 43.4vh; height: 27vh;} 
+    .leftMain .skillIcon .iconDetail .progress_bar {width: 30rem;}
+    .leftMain {margin: 0 82px auto;}
+    .skillRight>.rightMain {padding: 0 5rem;margin-right: 10px; box-sizing: border-box;}
+}

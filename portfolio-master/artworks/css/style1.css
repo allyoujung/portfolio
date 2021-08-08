@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+/*FONTS:STRAT*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500;600&display=swap');
+/*FONTS:END*/
+body{overflow-y: scroll;}
+#wrap{width: 100%;
+    
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Encode Sans SC', sans-serif;}
+#main{
+        width: 90%;
+        
+        background: #fff;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+.text h1{font-weight: bold; font-size: 7rem; margin-top: 5rem;}
+
+#contents{text-align:center; height: auto;}
+#nav{height: 10rem; margin-top: 3rem; border-bottom: 1px solid #000;}
+#nav li{float:left;  margin-left: 20px; line-height: 10rem;}
+#nav li:first-child{margin-left: 0;}
+#nav li a{padding: 5px 20px; background: #000; color: #fff;line-height: 40px; border-radius: 10px;}
+#image{ margin: 50px auto;}
+#image.ban1{background: url(../img/banner/b1.jpg) no-repeat; width: 564px; height: 600px;}
+#image.ban2{background: url(../img/banner/b2.jpg) no-repeat; width: 564px; height: 1001px;}
+#image.ban3{background: url(../img/banner/b3.jpg) no-repeat; width: 564px; height: 1271px;}
+#image.ban4{background: url(../img/banner/b4.jpg) no-repeat;width: 564px; height: 1002px;}
+#image.ban5{background: url(../img/banner/b5.jpg) no-repeat;width: 564px; height: 600px;}
+#image.ban6{background: url(../img/banner/b6.jpg) no-repeat; width: 564px; height: 656px;}
+#image.ban7{background: url(../img/banner/b7.jpg) no-repeat;width: 564px; height: 600px;}
+#image.ban8{background: url(../img/banner/b8.jpg) no-repeat;width: 564px; height: 956px;}
+
+.continer{width: 90%; margin: 0 auto; height: inherit; background: rgba(255, 255, 255, 0.5); position: relative; display: flex;
+    flex-direction: column;}

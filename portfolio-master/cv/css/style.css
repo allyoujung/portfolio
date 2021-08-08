@@ -1,0 +1,8 @@
+*{padding: 0; margin: 0;} 
+
+#wrap{
+ background: #E9EFF7; text-align: center;
+}
+#wrap img{
+    width: 55%;
+}
