@@ -140,7 +140,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .table .img00{background: url(../img/re_on_01.png) no-repeat center; background-size:cover}
 .table .img01{background: url(../img/pro02.png) no-repeat top center; background-size:cover}
 .table .img02{background: url(../img/pro3.png) no-repeat top center; background-size:cover}
-.table .img03{background: url(../img/re_on_01.png) no-repeat center; background-size:cover}
+.table .img03{background: url(../img/pro04.png) no-repeat center; background-size:cover}
 .table .img04{background: url(../img/ju.png) no-repeat top center; background-size:cover}
 .ptit_right{width: 20rem;}
 .ptit_r{font-size: 2rem; font-weight: bold; color: darkorchid; font-family: 'Staatliches', cursive; margin-bottom: 1rem;}
@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .photo_list ul .ph_img3{background: url(../img/re_2.jpg) no-repeat center; background-size:cover}
 .photo_list ul .ph_img3::after{content: "LG전자"; position: absolute; top: 125%; left: 46%;font-size: 1.5rem;} 
 .photo_list ul .ph_img4{background: url(../img/re_3.jpg) no-repeat center; background-size:cover}
-.photo_list ul .ph_img4::after{content: "레뷰"; position: absolute; top: 125%; left: 68%;font-size: 1.5rem;} 
+.photo_list ul .ph_img4::after{content: "야놀자"; position: absolute; top: 125%; left: 67%;font-size: 1.5rem;} 
 .photo_list ul .ph_img5{background: url(../img/re_5.jpg) no-repeat center; background-size:cover}
 .photo_list ul .ph_img5::after{content: "제주항공"; position: absolute; top: 125%; left: 87%;font-size: 1.5rem;} 
 

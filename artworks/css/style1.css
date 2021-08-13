@@ -30,14 +30,14 @@ body{overflow-y: scroll;}
 #nav li:first-child{margin-left: 0;}
 #nav li a{padding: 5px 20px; background: #000; color: #fff;line-height: 40px; border-radius: 10px;}
 #image{ margin: 50px auto;}
-#image.ban1{background: url(../img/banner/b1.jpg) no-repeat; width: 564px; height: 600px;}
-#image.ban2{background: url(../img/banner/b2.jpg) no-repeat; width: 564px; height: 1001px;}
-#image.ban3{background: url(../img/banner/b3.jpg) no-repeat; width: 564px; height: 1271px;}
-#image.ban4{background: url(../img/banner/b4.jpg) no-repeat;width: 564px; height: 1002px;}
-#image.ban5{background: url(../img/banner/b5.jpg) no-repeat;width: 564px; height: 600px;}
-#image.ban6{background: url(../img/banner/b6.jpg) no-repeat; width: 564px; height: 656px;}
-#image.ban7{background: url(../img/banner/b7.jpg) no-repeat;width: 564px; height: 600px;}
-#image.ban8{background: url(../img/banner/b8.jpg) no-repeat;width: 564px; height: 956px;}
+#image.ban1{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban2{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban3{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban4{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban5{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban6{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban7{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban8{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
 
 .continer{width: 90%; margin: 0 auto; height: inherit; background: rgba(255, 255, 255, 0.5); position: relative; display: flex;
     flex-direction: column;}
