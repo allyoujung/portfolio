@@ -13,9 +13,7 @@ body{overflow-y: scroll;}
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Encode Sans SC', sans-serif;}
-#main{
-        width: 90%;
-        
+#main{width: 90%;
         background: #fff;
         position: relative;
         top: 0;
@@ -30,10 +28,10 @@ body{overflow-y: scroll;}
 #nav li:first-child{margin-left: 0;}
 #nav li a{padding: 5px 20px; background: #000; color: #fff;line-height: 40px; border-radius: 10px;}
 #image{ margin: 50px auto;}
-#image.ban1{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
-#image.ban2{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
-#image.ban3{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
-#image.ban4{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
+#image.ban1{background: url(../img/banner/b10.jpg) no-repeat; width: 537px; height: 806px;}
+#image.ban2{background: url(../img/banner/b12.jpg) no-repeat; width: 516px; height: 750px;}
+#image.ban3{background: url(../img/banner/b11.jpg) no-repeat; width: 750px; height: 1050px;}
+#image.ban4{background: url(../img/banner/b13.jpg) no-repeat; width: 564px; height: 700px;}
 #image.ban5{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
 #image.ban6{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
 #image.ban7{background: url(../img/banner/ex.jpg) no-repeat; width: 700px; height: 700px;}
