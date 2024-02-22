@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 
 #main{
     width: 90%;
-    height: 438rem;
+    height: 485rem;
     background: #fff;
     position: relative;
     top: 100vh;
@@ -121,9 +121,9 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
   .rightMain>.bottom {margin-top: 20px;}
   
 
-.portfoilo{ height:85rem; display: flex;flex-direction: column;align-items: center; position: relative;}
+.portfoilo{ height:85rem; display: flex;flex-direction: column;align-items: center; position: relative; padding-top: 16rem;}
 .portfoilo h1{text-align: center; font-size: 48px; padding-top: 4rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive;}
-.pos{position: absolute; width: 100%; position: absolute; top: 10rem; left: 0;}
+.pos{position: absolute; width: 100%; position: absolute; top: 10rem; left: 0; padding-top: 15rem;}
 .pofi{display: flex; align-items: center; height: 55vh; justify-content: space-around; position: absolute; left: 0; width: 100%; opacity: 0;z-index: 1;}
 .pofi.on{z-index: 999;}
 .pr01{ opacity: 1; z-index: 999;}
@@ -163,8 +163,8 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .photo_list ul .ph_img5{background: url(../img/re_6.png) no-repeat center; background-size:cover}
 .photo_list ul .ph_img5::after{content: "인프런"; position: absolute; top: 125%; left: 88%;font-size: 1.5rem;} 
 
-.artworks{position: relative; height: 110rem;}
-.artworks h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive;}
+.artworks{position: relative; height: 110rem; padding-top: 11rem;}
+.artworks h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 9rem; font-family: 'Staatliches', cursive;}
 .arts{display: flex;flex-direction: column;align-items: center; margin-top: 2rem;}
 
 
@@ -187,9 +187,9 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 
 
 .contact{position: relative; height: 70rem; }
-.contact h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive; margin-bottom: 10rem;}
+.contact h1{text-align: center; font-size: 48px; padding-top: 12rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive; margin-bottom: 10rem;}
 
-.contact .con-box{display: flex; justify-content: space-evenly; margin-bottom: 5rem;}
+.contact .con-box{display: flex; justify-content: space-evenly; margin-bottom: 15rem;}
 .contact .con-box>div{display: flex;align-items: center;flex-direction: column; width: 17rem; height: 17rem;}
 .contact .con-box>div h2{font-size: 1.8rem; text-align: center; font-weight: 500; margin-bottom: 2rem;}
 .contact .con-box>div img{ width: 10rem; height: 10rem;}
