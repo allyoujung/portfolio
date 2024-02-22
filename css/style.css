@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .ftxt1{margin-left: 30px;display: block; font-size: 1.5rem; margin-top: 20px; margin-bottom: 20px;}
 .ftxt2{font-size: 16px; margin-left: 30px;}
 
-.center-bar{border-left: 1px solid rgb(75, 0, 52);}
+.center_bar{border-left: 1px solid rgb(75, 0, 52);}
 .formme .f_right{line-height: 4rem;margin-top: 8rem;}
 .f_right h3{font-size: 3rem;margin-bottom: 2rem; font-weight: 600;}
 .f_right p{font-size: 1.6rem; margin-bottom: 2rem;}
@@ -72,10 +72,10 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
       padding-bottom: 30px;
       margin-top: 4rem;
   }
-  .skill-title{
+  .skill_title{
     font-family: 'Staatliches', cursive; font-size: 40px; text-align: center; width: 100%; margin-bottom: 30px; 
   }
-  .skill-wrap{display: flex;}
+  .skill_wrap{display: flex;}
   .skillLeft {width: 50%; height: 800px; margin-top:3%}
   .leftTit {margin: 0 5rem auto; margin-top: 24px; margin-bottom: 40px; border-bottom: 1px solid #da5ca3;; box-sizing: border-box;}
   .leftTit>h3 {font-weight: 400; font-size: 24px; margin-bottom: 6px; letter-spacing: -1px; color: #8f4eda; font-weight: bold;}
@@ -149,18 +149,19 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 
 .photo_list{position: relative;top: 47rem;left: 0;}
 .photo_list ul{display: flex;}
-.photo_list ul li{width: 107px; height: 72px;  margin-right: 2rem; box-shadow: 8px 5px 5px #ccc; background: #000; opacity: .5; }
+.photo_list ul li{width: 107px; height: 72px;  margin-right: 2rem; box-shadow: 8px 5px 5px #ccc; background: #000; opacity: .5; cursor:pointer}
 .photo_list ul li.on{opacity: 1}
+.photo_list ul li a{display:block; width: 100%; height: 100%;}
 .photo_list ul li:last-child{ margin-right:0}
-.photo_list ul .ph_img1{background: url(../img/re_5.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img1{background: url(../img/re_5.jpg) no-repeat center; background-size:cover;}
 .photo_list ul .ph_img1::after{content: "제주항공"; position: absolute; top: 125%; left: 4%; font-size: 1.5rem; font-weight: 500;} 
-.photo_list ul .ph_img2{background: url(../img/re_1.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img2{background: url(../img/re_1.jpg) no-repeat center; background-size:cover;}
 .photo_list ul .ph_img2::after{content: "NH농협"; position: absolute; top: 125%; left: 25%;font-size: 1.5rem;} 
-.photo_list ul .ph_img3{background: url(../img/re_2.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img3{background: url(../img/re_2.jpg) no-repeat center; background-size:cover;}
 .photo_list ul .ph_img3::after{content: "LG전자"; position: absolute; top: 125%; left: 46%;font-size: 1.5rem;} 
-.photo_list ul .ph_img4{background: url(../img/re_3.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img4{background: url(../img/re_3.jpg) no-repeat center; background-size:cover;}
 .photo_list ul .ph_img4::after{content: "야놀자"; position: absolute; top: 125%; left: 67%;font-size: 1.5rem;} 
-.photo_list ul .ph_img5{background: url(../img/re_6.png) no-repeat center; background-size:cover}
+.photo_list ul .ph_img5{background: url(../img/re_6.png) no-repeat center; background-size:cover;}
 .photo_list ul .ph_img5::after{content: "인프런"; position: absolute; top: 125%; left: 88%;font-size: 1.5rem;} 
 
 .artworks{position: relative; height: 110rem; padding-top: 11rem;}
@@ -173,27 +174,27 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .artworks .artill a img{display: block; width: 417px; height: 342px;}
 .artworks .art_tit{float: right; height: 20rem; border-top: 2px solid #e5d3d3; border-bottom: 2px solid #e5d3d3; width: 50%; margin-left: 4rem;display: flex;
   justify-content: flex-start;align-items: center}
-.artworks .art_tit .frist-text{font-size: 4rem; font-weight: bold;}
-.artworks .art_tit .last-text{font-size: 2rem;}
+.artworks .art_tit .frist_text{font-size: 4rem; font-weight: bold;}
+.artworks .art_tit .last_text{font-size: 2rem;}
 
 .artworks .artphoto{display: flex; justify-content: space-around; align-items: center; width: 80%; text-align: right;}
 .artworks .artphoto a{float: left; }
 .artworks .artphoto a img{display: block; width: 479px; height: 338px;}
 .artworks .art_tit2{float: right; height: 20rem; border-top: 2px solid #e5d3d3; border-bottom: 2px solid #e5d3d3;width: 50%; margin-right: 4rem;display: flex;
   justify-content: flex-end;align-items: center}
-.artworks .art_tit2 .frist-text{font-size: 4rem; font-weight: bold;}
-.artworks .art_tit2 .last-text{font-size: 2rem;}
+.artworks .art_tit2 .frist_text{font-size: 4rem; font-weight: bold;}
+.artworks .art_tit2 .last_text{font-size: 2rem;}
 
 
 
 .contact{position: relative; height: 70rem; }
 .contact h1{text-align: center; font-size: 48px; padding-top: 12rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive; margin-bottom: 10rem;}
 
-.contact .con-box{display: flex; justify-content: space-evenly; margin-bottom: 15rem;}
-.contact .con-box>div{display: flex;align-items: center;flex-direction: column; width: 17rem; height: 17rem;}
-.contact .con-box>div h2{font-size: 1.8rem; text-align: center; font-weight: 500; margin-bottom: 2rem;}
-.contact .con-box>div img{ width: 10rem; height: 10rem;}
-.contact .con-box>div p{font-size: 1.5rem; text-align: center; font-weight: 500;}
+.contact .con_box{display: flex; justify-content: space-evenly; margin-bottom: 15rem;}
+.contact .con_box>div{display: flex;align-items: center;flex-direction: column; width: 17rem; height: 17rem;}
+.contact .con_box>div h2{font-size: 1.8rem; text-align: center; font-weight: 500; margin-bottom: 2rem;}
+.contact .con_box>div img{ width: 10rem; height: 10rem;}
+.contact .con_box>div p{font-size: 1.5rem; text-align: center; font-weight: 500;}
 .contact .sns{text-align: center; margin-bottom: 2rem;}
 .contact .sns a{margin-right: 2rem;}
 .contact .sns img{width: 5rem; height: 5rem;}
