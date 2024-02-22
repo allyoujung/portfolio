@@ -7,9 +7,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 #nav{position: fixed; top: 0; left: 5%;z-index: 3; width: 90%; height: 100px; display: flex; justify-content: space-evenly;
     align-items: center;}
 #nav.on{background: #ccc;}
-.logo{}
 .logo a img{width: 8rem;}
-.list{}
 .list li{float: left; margin-right: 6rem;}
 .list li:last-child{margin-right: 0}
 .list li a{font-size: 2.5rem; font-family: 'Old Standard TT', serif; font-weight: 700;}
@@ -40,7 +38,7 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .formme{overflow: hidden; height: 170rem;  }
 .formme::after{content: ""; display: block; clear: both; }
 .formme h1{text-align: center; font-size: 48px; padding-top: 50px; font-family: 'Staatliches', cursive; margin-bottom: 8rem;}
-.formme .f_left{}
+
 .f_left .f_img{width: 30rem; height: 30rem; background: url(../img/f1.png) no-repeat center; display: inline-block; background-size:cover}
 .ftxt1{margin-left: 30px;display: block; font-size: 1.5rem; margin-top: 20px; margin-bottom: 20px;}
 .ftxt2{font-size: 16px; margin-left: 30px;}
@@ -137,11 +135,11 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .table{position: relative;}
 .table img{width: 62vh;}
 .table .img{position: absolute;top: 6%;left: 12%; width: 47vh;height: 29.4vh;} 
-.table .img00{background: url(../img/re_on_01.png) no-repeat center; background-size:cover}
+.table .img00{background: url(../img/ju.png) no-repeat center; background-size:cover}
 .table .img01{background: url(../img/pro02.png) no-repeat top center; background-size:cover}
 .table .img02{background: url(../img/pro3.png) no-repeat top center; background-size:cover}
 .table .img03{background: url(../img/pro04.png) no-repeat center; background-size:cover}
-.table .img04{background: url(../img/ju.png) no-repeat top center; background-size:cover}
+.table .img04{background: url(../img/pro06.png) no-repeat top center; background-size:cover}
 .ptit_right{width: 20rem;}
 .ptit_r{font-size: 2rem; font-weight: bold; color: darkorchid; font-family: 'Staatliches', cursive; margin-bottom: 1rem;}
 
@@ -154,16 +152,16 @@ body::-webkit-scrollbar-thumb:hover{background-color: rgb(153, 159, 241);}
 .photo_list ul li{width: 107px; height: 72px;  margin-right: 2rem; box-shadow: 8px 5px 5px #ccc; background: #000; opacity: .5; }
 .photo_list ul li.on{opacity: 1}
 .photo_list ul li:last-child{ margin-right:0}
-.photo_list ul .ph_img1{background: url(../img/re_0.png) no-repeat center; background-size:cover}
-.photo_list ul .ph_img1::after{content: "포트폴리오"; position: absolute; top: 125%; left: 2.5%; font-size: 1.5rem; font-weight: 500;} 
+.photo_list ul .ph_img1{background: url(../img/re_5.jpg) no-repeat center; background-size:cover}
+.photo_list ul .ph_img1::after{content: "제주항공"; position: absolute; top: 125%; left: 4%; font-size: 1.5rem; font-weight: 500;} 
 .photo_list ul .ph_img2{background: url(../img/re_1.jpg) no-repeat center; background-size:cover}
 .photo_list ul .ph_img2::after{content: "NH농협"; position: absolute; top: 125%; left: 25%;font-size: 1.5rem;} 
 .photo_list ul .ph_img3{background: url(../img/re_2.jpg) no-repeat center; background-size:cover}
 .photo_list ul .ph_img3::after{content: "LG전자"; position: absolute; top: 125%; left: 46%;font-size: 1.5rem;} 
 .photo_list ul .ph_img4{background: url(../img/re_3.jpg) no-repeat center; background-size:cover}
 .photo_list ul .ph_img4::after{content: "야놀자"; position: absolute; top: 125%; left: 67%;font-size: 1.5rem;} 
-.photo_list ul .ph_img5{background: url(../img/re_5.jpg) no-repeat center; background-size:cover}
-.photo_list ul .ph_img5::after{content: "제주항공"; position: absolute; top: 125%; left: 87%;font-size: 1.5rem;} 
+.photo_list ul .ph_img5{background: url(../img/re_6.png) no-repeat center; background-size:cover}
+.photo_list ul .ph_img5::after{content: "인프런"; position: absolute; top: 125%; left: 88%;font-size: 1.5rem;} 
 
 .artworks{position: relative; height: 110rem;}
 .artworks h1{text-align: center; font-size: 48px; padding-top: 3rem;padding-bottom: 3rem; font-family: 'Staatliches', cursive;}
